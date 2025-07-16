@@ -16,16 +16,16 @@ Includes: Home, Services, Stylists, Bookings, Products, and an Admin dashboard w
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/Screenshot%202025-07-16%20172005.png)
-screenshots/Screenshot%202025-07-16%20172021.png
+![Home Page 1](screenshots/Screenshot%202025-07-16%20172005.png)
+![Home Page 2](screenshots/Screenshot%202025-07-16%20172021.png)
 
 ### Services Page
-![Services Page](./screenshots/Screenshot%202025-07-16%20172101.png)
-./screenshots/Screenshot%202025-07-16%20172644.png
+![Services Page 1](./screenshots/Screenshot%202025-07-16%20172101.png)
+![Services Page 2](./screenshots/Screenshot%202025-07-16%20172644.png)
 
 ### Products Section
 ![Products](./screenshots/Screenshot%202025-07-16%20172706.png)
-./screenshots/Screenshot%202025-07-16%20172726.png
+![Products](./screenshots/Screenshot%202025-07-16%20172726.png)
 
 ### Bookings Page
 ![Booking](./screenshots/Screenshot%202025-07-16%20172759.png)
