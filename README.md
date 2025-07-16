@@ -31,7 +31,7 @@ screenshots/Screenshot 2025-07-16 172021.png
 ![Booking](./screenshots/Screenshot 2025-07-16 172759.png)
 
 ### Admin Dashboard
-![Admin](./screenshots/Screenshot 2025-07-16 172928.png)
+![Admin](./screenshots/Screenshot%202025-07-16%20172928.png)
 
 ## 🚀 Getting Started
 
