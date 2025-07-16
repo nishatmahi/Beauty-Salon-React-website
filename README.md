@@ -1,9 +1,9 @@
 # Beauty Parlour Store – Fullstack Web App
 
-A modern beauty parlour/spa store web app built with **Next.js 14, React, HTML, CSS and Javascript**  
-Includes: Home, Services, Stylists, Bookings, Products, and an Admin dashboard with full CRUD for bookings & products.
+A modern beauty parlour and spa web app built with Next.js 14, React, HTML, CSS, and JavaScript.
+Includes: Home, Services, Stylists, Bookings, Products, and an Admin dashboard with full CRUD for bookings and products.
 
-## ✨ Features
+## Features
 
 - Beautiful landing page (parallax effects, carousel, elegant UI)
 - Services page with price reveal
@@ -13,7 +13,7 @@ Includes: Home, Services, Stylists, Bookings, Products, and an Admin dashboard w
 - Admin dashboard (manage bookings & products, live updates)
 - Modern responsive design
 
-## 📸 Screenshots
+## Screenshots
 
 ### Home Page
 ![Home Page 1](screenshots/Screenshot%202025-07-16%20172005.png)
