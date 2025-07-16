@@ -1,103 +1,132 @@
-import Image from "next/image";
-
+import { Playfair_Display } from "next/font/google";
+const playfair = Playfair_Display({ subsets: ["latin"], style: "italic", weight: "700" });
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main>
+      {/* Top Parallax Hero Section */}
+      <div
+        style={{
+          backgroundImage: "url('https://images.pexels.com/photos/5005149/pexels-photo-5005149.jpeg')",
+          height: "70vh",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          position: "relative",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+            color: "white",
+            zIndex: 2,
+            width: "100%",
+          }}
+        >
+        <h1
+          className={playfair.className}
+          style={{
+            fontSize: "4.5rem",
+            fontWeight: "bold",
+            letterSpacing: "4px",
+            textShadow: "2px 2px 12px #222",
+            marginBottom: "1rem",
+            fontStyle: "italic",
+    // No need to specify fontFamily, className does it
+          }}
+          >
+          MUSE Spa &amp; Salon
+          </h1>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <p style={{
+            fontSize: "1.3rem",
+            marginBottom: "2rem",
+            letterSpacing: "2px",
+            textShadow: "1px 1px 8px #222"
+          }}>
+            beauty + culture + grace
+          </p>
+          
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+
+      {/* About/Intro Section */}
+      <section style={{
+        padding: "3rem 1rem",
+        background: "#fff",
+        textAlign: "center"
+      }}>
+        <h2 style={{
+          fontWeight: 600,
+          fontSize: "2rem",
+          marginBottom: "1.5rem"
+        }}>
+          The Ultimate Luxury Spa &amp; Salon in Harlem
+        </h2>
+        <p style={{
+          maxWidth: "850px",
+          margin: "0 auto",
+          fontSize: "1.08rem",
+          color: "#444",
+          lineHeight: 1.7
+        }}>
+          You can now relax and join the elite at MUSE Spa and Salon. MUSE, located in multiple locations, offers top of the line service and expertise in all facets of beauty and hair. MUSE is a top contender for hair salons and spas. Exceptional service and exceptional results are standard practice at MUSE. We offer all services ranging from deep tissue massages to mink lash extensions and beyond. Our stylists are seasoned in all aspects of beauty, making it simple to assist in finding the perfect fit for your styling needs.
+        </p>
+      </section>
+
+      {/* Bottom Parallax Quote Section */}
+      <div
+        style={{
+          backgroundImage: "url('https://images.pexels.com/photos/4971453/pexels-photo-4971453.jpeg')",
+          height: "70vh",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          position: "relative",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center"
+        }}
+      >
+        <div style={{
+          color: "white",
+          fontSize: "2.1rem",
+          fontWeight: "bold",
+          textShadow: "2px 2px 8px #000",
+          maxWidth: "800px",
+          textAlign: "center"
+        }}>
+          “Fall in love with taking care of yourself.{" "}
+          <span style={{ color: "#FFD700" }}>Mind Body &amp; Spirit.</span>”
+        </div>
+      </div>
+
+      {/* Optional: Extra White Section at the Bottom */}
+      <section style={{
+        padding: "3rem 1rem",
+        background: "#fff",
+        textAlign: "center"
+      }}>
+        <h2 style={{
+          fontWeight: 600,
+          fontSize: "1.4rem",
+          marginBottom: "1.2rem"
+        }}>
+          Our Signature Treatments
+        </h2>
+        <p style={{
+          maxWidth: "700px",
+          margin: "0 auto",
+          fontSize: "1rem",
+          color: "#444"
+        }}>
+          Discover our exclusive therapies and packages designed to rejuvenate your body, mind, and spirit.
+        </p>
+      </section>
+    </main>
   );
 }
