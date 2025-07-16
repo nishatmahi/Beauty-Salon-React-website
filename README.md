@@ -16,8 +16,8 @@ Includes: Home, Services, Stylists, Bookings, Products, and an Admin dashboard w
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](./screenshots/Screenshot 2025-07-16 172005.png)
-./screenshots/Screenshot 2025-07-16 172021.png
+![Home Page](screenshots/Screenshot 2025-07-16 172005.png)
+screenshots/Screenshot 2025-07-16 172021.png
 
 ### Services Page
 ![Services Page](./screenshots/Screenshot 2025-07-16 172101.png)
