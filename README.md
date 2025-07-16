@@ -1,6 +1,6 @@
 # Beauty Parlour Store – Fullstack Web App
 
-A modern beauty parlour/spa store web app built with **Next.js 14, React, and Tailwind CSS**  
+A modern beauty parlour/spa store web app built with **Next.js 14, React, HTML, CSS and Javascript**  
 Includes: Home, Services, Stylists, Bookings, Products, and an Admin dashboard with full CRUD for bookings & products.
 
 ## ✨ Features
@@ -16,19 +16,19 @@ Includes: Home, Services, Stylists, Bookings, Products, and an Admin dashboard w
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/Screenshot 2025-07-16 172005.png)
-screenshots/Screenshot 2025-07-16 172021.png
+![Home Page](screenshots/Screenshot%202025-07-16%20172005.png)
+screenshots/Screenshot%202025-07-16%20172021.png
 
 ### Services Page
-![Services Page](./screenshots/Screenshot 2025-07-16 172101.png)
-./screenshots/Screenshot 2025-07-16 172644.png
+![Services Page](./screenshots/Screenshot%202025-07-16%20172101.png)
+./screenshots/Screenshot%202025-07-16%20172644.png
 
 ### Products Section
-![Products](./screenshots/Screenshot 2025-07-16 172706.png)
-./screenshots/Screenshot 2025-07-16 172726.png
+![Products](./screenshots/Screenshot%202025-07-16%20172706.png)
+./screenshots/Screenshot%202025-07-16%20172726.png
 
 ### Bookings Page
-![Booking](./screenshots/Screenshot 2025-07-16 172759.png)
+![Booking](./screenshots/Screenshot%202025-07-16%20172759.png)
 
 ### Admin Dashboard
 ![Admin](./screenshots/Screenshot%202025-07-16%20172928.png)
@@ -37,6 +37,4 @@ screenshots/Screenshot 2025-07-16 172021.png
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/beauty-parlour-app.git
-cd beauty-parlour-app
+
